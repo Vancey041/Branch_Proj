@@ -1,0 +1,42 @@
+body {
+  background-color: pink;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.cats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cat-box {
+  border: 2px solid black;
+  height: 500px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: white;
+}
+
+.cat-box img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.cat-box h2 {
+  margin: 10px 0;
+}
