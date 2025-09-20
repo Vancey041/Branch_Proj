@@ -40,3 +40,23 @@ body {
 .cat-box h2 {
   margin: 10px 0;
 }
+
+  /* Back Button */
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 2px solid black;
+  transition: background 0.3s ease;
+  z-index: 1000;
+}
+
+.back-btn:hover {
+  background: darkorange;
+}
